@@ -1,6 +1,6 @@
-# 🎨 LYF Portfolio
+# 🤵🏻 LYF Portfolio
 
-> Welcome to my personal portfolio — a showcase of my projects, skills, and passions, built with love 💙🖤  
+> Welcome to my personal portfolio — a showcase of my projects, skills, and passions, built with love 💙
 ---
 
 ## 🧾 Tentang Proyek
@@ -14,10 +14,10 @@ Berikut beberapa teknologi yang aku pakai dalam proyek ini:
 
 | Layer | Teknologi / Tools |
 |-------|-------------------|
-| Frontend | HTML5, CSS3, JavaScript |
+| Frontend | HTML5, CSS3, JavaScript(next) |
 | Framework / Library | BOOSTRAP |
 | Styling | CSS (Flexbox/Grid) |
-| Hosting / Deployment | (misal: GitHub Pages |
+| Hosting / Deployment | GitHub Pages |
 
 ## 🎯 Fitur Utama
 
