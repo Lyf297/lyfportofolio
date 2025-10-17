@@ -1,8 +1,14 @@
 :root {
   --mainColor : #000000;
-  --secondaryColor : #4169e1;
+  --secondaryColor : #2563eb;
   --acsentColor : #0000ff;
   --lightColor : #e0ffff;
+  --main2Color : #0f172a;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.85); /* agak transparan biar partikel tetap kelihatan */
+  backdrop-filter: blur(4px);
 }
 
 body {
@@ -95,7 +101,7 @@ ion-icon {
 hr {
   width: 70%;
   height: 5px;
-  color: var(--acsentColor);
+  color: var(--secondaryColor);
   margin: 0 auto;
   opacity: 100%;
 }
@@ -113,30 +119,30 @@ hr {
 /* BORDER */
 
 #about {
-  border: 0px solid;
-  border-color: var(--acsentColor);
+  border: 5px solid;
+  border-color: var(--secondaryColor);
   border-radius: 30px;
   margin: 50px 20px 10px 20px;
   align-items: center;
-  background-color: var(--acsentColor);
+  background-color: var(--main2Color);
 }
 
 #skill {
-  border: 0px solid;
-  border-color: var(--acsentColor);
+  border: 5px solid;
+  border-color: var(--secondaryColor);
   border-radius: 30px;
   margin: 10px 20px 10px 20px;
   align-items: center;
-  background-color: var(--acsentColor);
+  background-color: var(--main2Color);
 }
 
 #cta-about {
-  border: 0px solid;
-  border-color: var(--acsentColor);
+  border: 5px solid;
+  border-color: var(--secondaryColor);
   border-radius: 30px;
   margin: 10px 20px 10px 20px;
   align-items: center;
-  background-color: var(--acsentColor);
+  background-color: var(--main2Color);
 }
 
 /* CTA */
@@ -168,3 +174,4 @@ hr {
 
 /* End About */
 
+  
