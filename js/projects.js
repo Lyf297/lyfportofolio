@@ -6,7 +6,7 @@ const projects = [
     desc: 'Website membantu kamu mengelola keuangan sehari-hari secara efisien. Dengan fitur tabungan fleksibel, pencatatan pengeluaran yang mudah, dan dashboard interaktif, kamu bisa memantau arus kas, menetapkan tujuan tabungan, dan membuat keputusan finansial yang lebih cerdas. Desain yang responsif memastikan pengalaman yang nyaman di semua perangkat, baik laptop maupun ponsel. Cocok untuk pelajar, profesional muda, atau siapa saja yang ingin lebih sadar dalam mengelola uangnya.',
     tools: 'HTML, CSS, JavaScript',
     image: 'img/project/pengelola-keuangan.png',
-    link: '#'
+    link: 'https://lyf297.github.io/pengelola-keuangan/'
   },
   {
     id: 'p-02',
@@ -15,7 +15,7 @@ const projects = [
     desc: 'Brief Design Generator adalah alat praktis untuk membuat brief desain secara otomatis. Cukup isi form dengan informasi yang diperlukan, dan alat ini akan menghasilkan preview brief desain yang rapi dan siap digunakan. Kamu juga bisa mengekspor brief tersebut ke format PDF atau PNG untuk dibagikan atau dicetak. Cocok untuk desainer, freelancer, atau siapa saja yang membutuhkan brief desain dengan cepat dan efisien.',
     tools: 'HTML, CSS, JavaScript',
     image: 'img/project/brief.jpg',
-    link: '#'
+    link: 'https://lyf297.github.io/brief-design-generator/'
   },
 /*   {
     id: 'p-03',
