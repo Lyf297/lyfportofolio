@@ -17,15 +17,15 @@ const projects = [
     image: 'img/project/brief.jpg',
     link: 'https://lyf297.github.io/brief-design-generator/'
   },
-/*   {
+  {
     id: 'p-03',
-    title: 'UI Mini App',
-    short: 'Prototype UI untuk aplikasi budgeting.',
-    desc: 'Prototype interaktif yang menunjukkan alur pengguna untuk menambah dan melihat tabungan pada aplikasi.',
-    tools: 'Figma, HTML/CSS',
-    image: 'https://via.placeholder.com/800x500.png?text=UI+Mini+App',
-    link: '#'
-  } */
+    title: 'MindFlow Generator',
+    short: 'Aplikasi web interaktif untuk membuat Mindmap & Flowchart profesional.',
+    desc: 'MindFlow Ultimate adalah aplikasi Mindmap dan Flowchart interaktif berbasis web menggunakan JointJS.Fitur lengkap, profesional, dan responsif:Bebas watermark, clean, dan siap digunakan di desktop maupun mobile.',
+    tools: 'HTML, CSS, JavaScript',
+    image: 'img/project/mindflow.jpg',
+    link: 'https://lyf297.github.io/mindflow-generator/'
+  }, 
 ];
 
 const grid = document.getElementById('projects-grid');
