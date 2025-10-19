@@ -21,12 +21,8 @@ Berikut beberapa teknologi yang aku pakai dalam proyek ini:
 
 ##  Fitur Utama
 
-> (mungkin fitur belum tersedia dan nantinya akan ada update bertahap)
----
-
 - Halaman **Beranda** dengan tampilan hero + pengenalan diri  
 - Halaman **Tentang Saya** — latar belakang, visi, hobi  
 - Halaman **Proyek / Work** — galeri proyek dengan deskripsi & link live / repo  
 - Halaman **Kontak** — formulir / info kontak langsung  
-- (Opsional) **Blog** atau artikel pengalaman pengembangan  
 - Responsif & mobile-friendly — tampil bagus di desktop & HP
