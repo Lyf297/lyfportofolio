@@ -1,14 +1,14 @@
-# 🤵🏻 LYF Portfolio
+#  LYF Portfolio
 
 > Welcome to my personal portfolio — a showcase of my projects, skills, and passions, built with love 💙
 ---
 
-## 🧾 Tentang Proyek
+##  Tentang Proyek
 
 LYF Portfolio adalah website **portofolio pribadi** yang menampilkan proyek-proyek, kemampuan teknis, dan pengalaman saya sebagai developer.  
 Tujuan utama: menunjukkan ke dunia apa yang bisa aku lakukan, dan memudahkan orang (atau calon klien/pekerja) mengenalku lewat karya nyata.
 
-## 🛠️ Teknologi & Stack
+##  Teknologi & Stack
 
 Berikut beberapa teknologi yang aku pakai dalam proyek ini:
 
@@ -19,9 +19,9 @@ Berikut beberapa teknologi yang aku pakai dalam proyek ini:
 | Styling | CSS (Flexbox/Grid) |
 | Hosting / Deployment | GitHub Pages |
 
-## 🎯 Fitur Utama
+##  Fitur Utama
 
-> 🙏🏻(mungkin fitur belum tersedia dan nantinya akan ada update bertahap)
+> (mungkin fitur belum tersedia dan nantinya akan ada update bertahap)
 ---
 
 - Halaman **Beranda** dengan tampilan hero + pengenalan diri  
