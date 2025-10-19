@@ -26,6 +26,15 @@ const projects = [
     image: 'img/project/mindflow.jpg',
     link: 'https://lyf297.github.io/mindflow-generator/'
   }, 
+  {
+    id: 'p-04',
+    title: 'Poster Bullying',
+    short: 'Poster Bullying yang dibuat dengan software Coreldraw .',
+    desc: 'Poster dengan visual didominasi warna gelap (merah-hitam) untuk suasana mencekam. Seorang korban berwarna putih meringkuk ketakutan di tengah, dikelilingi oleh bayangan hitam bermata merah yang mewakili para perundung. Kata-kata hinaan kasar tertulis di bayangan tersebut, secara visual menekan korban. Pesan utamanya, "DONT BULLYING," menyuarakan pentingnya menghentikan perundungan verbal.',
+    tools: 'Coreldraw',
+    image: 'img/project/bullyingposter.jpg',
+    link: '#'
+  }, 
 ];
 
 const grid = document.getElementById('projects-grid');
