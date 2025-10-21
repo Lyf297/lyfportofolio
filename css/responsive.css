@@ -1,40 +1,133 @@
-@media screen and (max-width : 1200px) {
+/* ================= DESKTOP ================= */
+@media screen and (min-width: 1200px) {
+  #hero {
+    margin-top: 120px;
+    text-align: left;
+  }
+
+  #hero h1,
+  #hero h2,
   #hero p {
-    font-size: .9rem;
+    text-align: left;
   }
-  
-  #hero h1 {
-    font-size: 2.3rem;
-  }
-}
 
-@media screen and (max-width : 768px) {
-   #hero img {
-    width: 60%;
+  /* Social icons — tetap di bawah tombol */
+  .social-wrapper {
+    margin-top: 22px;
+    justify-content: center;
   }
-  
+
   .social-icon {
-    left: 50%;
-    transform: translate(-50%);
+    font-size: 30px;
   }
-  
-    .btn-custom1 {
-    width: 80%;
-  }
-  
-  #hero .row {
-    padding-bottom: 75px;
-  }
-  
+
   #about {
-    text-align: justify !important;
+    width: 70%;
+  }
+
+  #skill img {
+    width: 9%;
   }
 }
 
-@media screen and (max-width : 576px) {
-  
+/* ================= LANDSCAPE (TABLET & HP) ================= */
+@media screen and (orientation: landscape) {
+  #hero {
+    margin-top: 90px;
+    text-align: left !important;
+  }
+
+  #hero h1,
+  #hero h2,
+  #hero p {
+    text-align: left !important;
+  }
+
+  /* Social icons — posisi rapi di bawah tombol */
+  .social-wrapper {
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .social-icon {
+    font-size: 30px;
+  }
 }
 
-@media screen and (max-width : 350px) {
-  
+/* ================= HP & TABLET PORTRAIT ================= */
+@media screen and (orientation: portrait) {
+  #hero {
+    margin-top: 60px;
+    text-align: center !important;
+  }
+
+  #hero h1,
+  #hero h2,
+  #hero p {
+    text-align: center !important;
+  }
+
+  /* Social icons — tetap di bawah tombol dan center */
+  .social-wrapper {
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .social-icon {
+    font-size: 32px;
+  }
+
+  /* ABOUT SECTION (versi originalmu) */
+  #about {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px 25px;
+    width: 90%;
+    border-radius: 25px;
+  }
+
+  #about img {
+    width: 80%;
+    margin-bottom: 25px;
+    border-radius: 20px;
+  }
+
+  #about p {
+    text-align: center !important;
+    line-height: 1.7;
+    font-size: 1rem;
+    padding: 0 6px;
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  /* SKILL SECTION */
+  #skill {
+    margin-top: 30px;
+    padding: 35px 15px;
+    width: 90%;
+    border-radius: 25px;
+  }
+
+  #skill img {
+    width: 18%;
+    margin: 10px;
+  }
+}
+
+/* ================= SMALL HP ================= */
+@media screen and (max-width: 576px) {
+  #hero {
+    margin-top: 45px;
+  }
+
+  #about {
+    padding: 25px 15px;
+  }
+
+  .social-wrapper {
+    margin-top: 12px;
+  }
 }

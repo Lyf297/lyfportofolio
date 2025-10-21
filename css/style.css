@@ -11,11 +11,12 @@
 body {
   background-color: var(--mainColor);
   min-height: 900px;
-  font-family: 'ubuntu',sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Navbar */
-/* HEADER */
+/* ================= NAVBAR ================= */
 .site-header {
   padding: 18px 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -26,6 +27,7 @@ body {
   background: rgba(15, 23, 42, 0.7);
   animation: fadeDown .8s ease;
 }
+
 .nav {
   max-width: 980px;
   margin: 0 auto;
@@ -33,6 +35,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 .brand {
   font-weight: 700;
   text-decoration: none;
@@ -40,6 +43,7 @@ body {
   transition: color .3s;
 }
 .brand:hover { color: var(--accent); }
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -60,16 +64,7 @@ body {
   color: var(--accent);
 }
 
-
- 
-section h1 {
-  color: #fff;
-  font-size: 2.5rem;
-}
-
-/* End Navbar */
-
-/* Hero */
+/* ================= HERO SECTION ================= */
 .color-acsent {
   color: var(--acsentColor);
 }
@@ -77,6 +72,7 @@ section h1 {
 #hero {
   color: #fff;
   min-height: 100vh;
+  margin-top: 100px;
 }
 
 #hero h1 {
@@ -92,7 +88,6 @@ section h1 {
   font-weight: 300;
 }
 
-/* CTA */
 .btn-custom1 {
   background-color: var(--acsentColor);
   text-align: center;
@@ -107,12 +102,6 @@ section h1 {
   box-shadow: 0 0 5px rgba(0, 0, 255, 1);
 }
 
-/*.cv {
-  color: #fff;
-  cursor: pointer;
-  font-size: 1.1rem;
-}*/
-
 .social-icon {
   margin-right: .2em;
   margin-bottom: 10px;
@@ -122,10 +111,28 @@ ion-icon {
   font-size: 23px;
 }
 
-/* End Hero */
+/* ================= SOCIAL ICONS ================= */
+.social-wrapper {
+  margin-top: 18px;             /* jarak ideal di semua layar */
+  display: flex;
+  justify-content: center;      /* selalu di tengah */
+  align-items: center;
+  gap: 14px;                    /* jarak antar ikon */
+  flex-wrap: wrap;
+}
 
-/* About Me */
+.social-icon {
+  font-size: 28px;
+  color: var(--text);
+  transition: all 0.3s ease;
+}
 
+.social-icon:hover {
+  color: var(--acsentColor);
+  transform: translateY(-3px);
+}
+
+/* ================= ABOUT SECTION ================= */
 .text-about {
   color: var(--accent);
 }
@@ -134,68 +141,29 @@ ion-icon {
   color: var(--text);
 }
 
-hr {
-  width: 70%;
-  height: 5px;
-  color: var(--secondaryColor);
-  margin: 0 auto;
-  opacity: 100%;
-}
-
 #about {
   min-height: 300px;
   width: 90%;
-  background-color: var(--mainColor);
+  margin: 50px auto 10px auto;
+  border-radius: 30px;
+  background-color: var(--main2Color);
   color: #fff;
   padding-top: 50px;
   padding-bottom: 5px;
 }
 
-
-/* BORDER */
-
-#about {
-  border: px solid;
-  border-color: var(--secondaryColor);
-  border-radius: 30px;
-  margin: 50px 20px 10px 20px;
-  align-items: center;
-  background-color: var(--main2Color);
-  
-}
-
-#skill {
-  border: px solid;
-  border-color: var(--secondaryColor);
-  border-radius: 30px;
-  margin: 10px 20px 10px 20px;
-  align-items: center;
-  background-color: var(--main2Color);
-}
-
-/* #cta-about {
-  border: 5px solid;
-  border-color: var(--secondaryColor);
-  border-radius: 30px;
-  margin: 10px 20px 10px 20px;
-  align-items: center;
-  background-color: var(--main2Color);
-}
-
-/* CTA */
-.btn-custom2 {
+#about p {
   text-align: center;
-  color: #fff;
-  min-width: 80px;
-  height: 55px;
 }
 
-/* END CTA /
-
-/* SKILL */
+/* ================= SKILL SECTION ================= */
 #skill {
   min-height: 100px;
   width: 90%;
+  margin: 30px auto;
+  border-radius: 30px;
+  background-color: var(--main2Color);
+  text-align: center;
 }
 
 #skill img {
@@ -207,11 +175,7 @@ hr {
   color: #fff;
 }
 
-/* END SKILL */
-
-/* End About */
-
-/* ANIMATIONS */
+/* ================= ANIMATIONS ================= */
 @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes fadeDown { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
